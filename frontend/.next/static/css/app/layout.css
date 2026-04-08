@@ -1,0 +1,30 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+}
+
+button:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+.verdict-badge {
+  @apply inline-block px-3 py-1 rounded font-semibold text-sm;
+}
+
+.verdict-safe {
+  @apply bg-green-900 text-green-200;
+}
+
+.verdict-suspicious {
+  @apply bg-yellow-900 text-yellow-200;
+}
+
+.verdict-scam {
+  @apply bg-red-900 text-red-200;
+}
